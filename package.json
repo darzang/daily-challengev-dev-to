@@ -1,0 +1,25 @@
+{
+  "name": "daily-challenge",
+  "version": "1.0.0",
+  "description": "daily challenges from dev.to",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darzang/daily-challengev-dev-to.git"
+  },
+  "keywords": [
+    "daily",
+    "challenge",
+    "dev"
+  ],
+  "author": "Mathieu Boez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darzang/daily-challengev-dev-to/issues"
+  },
+  "homepage": "https://github.com/darzang/daily-challengev-dev-to#readme"
+}
