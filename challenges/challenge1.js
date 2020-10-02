@@ -35,10 +35,11 @@ module.exports = {
     execute: execute(),
 }
 
+
+
 /**
- * module.exports = {
-    Cat: Cat
-}
-Is the same as
-exports.Cat = cat
+ * Best response from dev.to comments:
+ 
+ (someString) => someString.length > 2 ? someString.slice(1, -1) : undefined;
+
  */

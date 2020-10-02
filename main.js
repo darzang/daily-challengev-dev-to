@@ -19,3 +19,14 @@ const main = async () => {
 }
 
 main()
+
+
+
+/**
+ * module.exports = {
+    Cat: Cat
+}
+Is the same as
+exports.Cat = cat
+ */
+
