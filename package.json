@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "daily challenges from dev.to",
   "main": "main.js",
-  "type": "module",
   "scripts": {
     "test": "test"
   },
