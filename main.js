@@ -2,6 +2,7 @@ const readline = require('readline')
 const fs = require('fs')
 
 const main = async () => {
+    console.log("hey babe")
     const challengeAmount = fs.readdirSync('./challenges').length -1 // -1 because of template
 
     const lineReader = readline.createInterface({
