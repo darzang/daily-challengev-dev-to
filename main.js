@@ -14,7 +14,7 @@ const main = async () => {
         Please enter a number between 1 and ${challengeAmount}
     `, async (input) => {
         lineReader.close()
-        const challenge = await require(`./challenges/challenge${input}`)
+        const challenge = await require(`./challenges/Challenge${input}/challenge${input}`)
         await challenge.execute
     })
 }

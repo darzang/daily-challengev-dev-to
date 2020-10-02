@@ -13,6 +13,6 @@
             ],
             "program": "${workspaceFolder}\\main.js",
             "console": "externalTerminal",
-        }
+        },
     ]
 }

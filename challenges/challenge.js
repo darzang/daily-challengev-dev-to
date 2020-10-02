@@ -2,7 +2,6 @@ const readline = require('readline');
 const challengeName = ''
 const challengeDefinition = `
     ${challengeName}
-
 \n\n\n`
 
 const askInputString = `Please enter `
@@ -26,6 +25,7 @@ const execute = () => {
 
 module.exports = {
     name: challengeName,
+    mainFunction: challengeFunction(),
     definition: challengeDefinition,
     askInputString: askInputString,
     execute: execute(),

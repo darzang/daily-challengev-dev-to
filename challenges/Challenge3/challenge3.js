@@ -30,6 +30,7 @@ const execute = () => {
 
 module.exports = {
     name: challengeName,
+    mainFunction: challengeFunction(),
     definition: challengeDefinition,
     askInputString: askInputString,
     execute: execute(),

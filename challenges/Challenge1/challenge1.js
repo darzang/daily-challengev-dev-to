@@ -10,8 +10,7 @@ const challengeDefinition = `
 const askInputString = `Please enter any string with at least 3 characters: `
 
 const challengeFunction = (input) => {
-    if (!input || !input.length) return 'Invalid String'
-    if (input.length <= 2) return 'String too short'
+    if (!input || !input.length || input.length <= 2) return null // Invalid String
     return input.slice(1, input.length - 1)
 }
 
@@ -30,6 +29,7 @@ const execute = () => {
 
 module.exports = {
     name: challengeName,
+    mainFunction: challengeFunction(),
     definition: challengeDefinition,
     askInputString: askInputString,
     execute: execute(),
