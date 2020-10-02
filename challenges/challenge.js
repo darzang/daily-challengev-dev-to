@@ -1,8 +1,8 @@
 const readline = require('readline');
-const challengeName = 'Daily Challenge #2 - String Diamond'
-
+const challengeName = ''
 const challengeDefinition = `
     ${challengeName}
+
 \n\n\n`
 
 const askInputString = `Please enter `

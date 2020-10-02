@@ -2,7 +2,7 @@ const readline = require('readline')
 const fs = require('fs')
 
 const main = async () => {
-    const challengeAmount = fs.readdirSync('./challenges').length
+    const challengeAmount = fs.readdirSync('./challenges').length -1 // -1 because of template
 
     const rl = readline.createInterface({
         input: process.stdin,
