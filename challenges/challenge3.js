@@ -39,6 +39,6 @@ module.exports = {
 /**
  * Best response from dev.to comments:
  
- (someString) => someString.length > 2 ? someString.slice(1, -1) : undefined;
+f=s=>(`${s}`.match(/[aeiou]/gi)||'').length;
 
  */
